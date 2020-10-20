@@ -6,7 +6,7 @@ Anyway the library is called `neuronlib.py` and an example is in `test.py`.
 
 To use the neuron just instantiate an object of class `Neurone` passing to the init method the *size of the input* and the *learning rate* (default is set as 0.01).
 
- The activation function is the *sigmoid* but feel free to implement your own activation fucntion.
+ The activation function is the *sigmoid* but feel free to implement your own activation function.
 
  The actual learning phase is done by calling **neuron**.*learn* where the parametres are *input data as array*, *target as integer value (0, 1)* and eventually *to_print = True* as you usually set verbose = True.
 
